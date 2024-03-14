@@ -79,3 +79,16 @@ input, label {
     font-size: 1.5rem;
     background-color: rgb(240, 240, 240);
 }
+button {
+    margin-top: 1rem;
+    width: 15rem;
+    color: white;
+    font-size: 1.5rem;
+    background-color: darkseagreen;
+    margin-left: 2rem;
+    border-radius: 12px;
+}
+button:hover {
+    background-color: white;
+    color: darkseagreen;
+}
