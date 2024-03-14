@@ -6,7 +6,7 @@ body {
     display: inline-flex;
 }
 .leftText img {
-    width: 17%;
+    width: 12%;
     height: 80%;
 }
 .leftText{
@@ -25,8 +25,8 @@ h1 {
 }
 .sideContent {
     height: 81rem;
-    width: 50rem;
-    background-size: 50rem 81rem;
+    width: 70rem;
+    background-size: 70rem 81rem;
     background-image: url(https://images.unsplash.com/photo-1585202900225-6d3ac20a6962?q=80&w=1862&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
 }
 #sideImage {
@@ -41,13 +41,41 @@ h1 {
     margin-top: 40rem;
 }
 .mainContent {
-    align-content: center;
-    justify-content: center;
+    display: block;
     height: 81rem;
+    width: 84rem;
 }
 #photographer {
     color: white;
 }
 #imageHost {
     color: white;
+}
+.topMainContent {
+    height: 27rem;
+    width: 100%;
+    background-color: rgb(240, 240, 240);
+    font-size: 1.5rem;
+}
+h3{
+    margin-top: 0%;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+}
+form {
+    margin-left: 2rem;
+}
+input, label {
+    display: block;
+}
+.middleSection {
+    display: block;
+    height: 27rem;
+    width: 100%;
+}
+.bottomOfMainContent {
+    height: 27rem;
+    width: 100%;
+    font-size: 1.5rem;
+    background-color: rgb(240, 240, 240);
 }
