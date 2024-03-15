@@ -26,26 +26,26 @@
                 <form>
                     <div class="firstLine">
                         <label>FIRST NAME</label>
-                        <input type="text">
+                        <input type="text" placeholder="Joe" required minlength="1" maxlength="20">
                         <label>LAST NAME</label>
-                        <input type="text">
+                        <input type="text" placeholder="Mama" required minlength="1" maxlength="20">
                     </div>
                     <div class="secondLine">
                         <label>EMAIL</label>
-                        <input type="email">
+                        <input type="email" placeholder="coolemail@site.com" required>
                         <label>PHONE NUMBER</label>
-                        <input type="tel">
+                        <input type="tel" placeholder="777-777-7777" minlength="10" maxlength="12">
                     </div>
                     <div class="thirdLine">
                         <label>PASSWORD</label>
-                        <input type="password">
+                        <input type="password" required minlength="7">
                         <label>CONFIRM PASSWORD</label>
-                        <input type="password">
+                        <input type="password" required minlength="7">
                     </div>
-                </form>
             </div>
             <div class="bottomOfMainContent">
                 <button type="submit">Create Account</button>
+                </form>
                 <h3>Already have an account? <a href="" id="logIn">Log in</a></h3>
             </div>
         </div>
