@@ -44,6 +44,7 @@ h1 {
     display: block;
     height: 81rem;
     width: 84rem;
+    overflow: hidden;
 }
 #photographer {
     color: white;
@@ -57,8 +58,13 @@ h1 {
     background-color: rgb(240, 240, 240);
     font-size: 1.5rem;
 }
-h3{
+p {
     margin-top: 0%;
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+h3{
     margin-left: 2rem;
     font-size: 1.5rem;
 }
@@ -66,12 +72,26 @@ form {
     margin-left: 2rem;
 }
 input, label {
+    width: 15rem;
+    height: 1.5rem;
     display: block;
+}
+.firstLine {
+    float: left;
+}
+.secondLine {
+    float: left;
+    margin-left: 5rem;
+}
+.thirdLine {
+    float: left;
+    margin-left: 5rem;
 }
 .middleSection {
     display: block;
     height: 27rem;
     width: 100%;
+    align-items: center;
 }
 .bottomOfMainContent {
     height: 27rem;
@@ -81,14 +101,20 @@ input, label {
 }
 button {
     margin-top: 1rem;
+    height: 5rem;
     width: 15rem;
     color: white;
     font-size: 1.5rem;
     background-color: darkseagreen;
     margin-left: 2rem;
-    border-radius: 12px;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
 }
 button:hover {
     background-color: white;
+    color: darkseagreen;
+}
+#logIn {
     color: darkseagreen;
 }
